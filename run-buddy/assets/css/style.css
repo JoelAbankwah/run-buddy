@@ -281,3 +281,20 @@
   
   /* REACH OUT STYLES END */
   
+  @media screen and (max-width: 980px) {
+    header  {
+      display: flex;
+    }
+
+    header h1 {
+      font-size: 25px;
+      padding: 10px;
+    }
+
+    header nav {
+      display: inline-flex;
+      font-size: 50%;
+      margin: 5px 0 5px 0;
+    }
+  
+  }
