@@ -55,23 +55,6 @@
     padding: 40px 35px;
   }
   
-  footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-  }
-  
-  footer a {
-    color: #024e76;
-  }
-  
   section {
     padding: 60px;
   }
@@ -286,6 +269,28 @@
   }
   
   /* REACH OUT STYLES END */
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+  footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: #024e76;
+  }
   
   @media screen and (max-width: 980px) {
     header  {
