@@ -229,6 +229,7 @@
   
   /* REACH OUT STYLES START */
   .contact {
+    display:flex;
     text-align: center;
     background: #024e76;
   }
@@ -244,7 +245,6 @@
   
   .contact-info div {
     width: 410px;
-    display: inline-block;
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
